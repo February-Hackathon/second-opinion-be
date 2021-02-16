@@ -6,4 +6,4 @@ class PDocsSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = PDocs
-        fields = ('id', 'docs', 'owner_id')
+        fields = '__all__'
